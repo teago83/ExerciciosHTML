@@ -11,8 +11,22 @@ body {
 
 p {
     text-align: left;
+    padding: 5px 5px;
 }
 
 h1	{
     background-color: grey;
+    padding-left: 10px;
+}
+h2 {
+    padding-left: 10px;
+}
+
+figure {
+    background-color: #F2EDED;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+figcaption {
+    font-style: italic;
 }

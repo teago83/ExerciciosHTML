@@ -1,0 +1,27 @@
+body {
+    color: wheat;
+    background-color: black;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: large;
+    border: 2px solid white;
+    border-collapse: separate;
+    border-spacing: 10px 20px;
+}
+
+p {
+    text-align: left;
+    padding: 5px 5px;
+}
+
+h1 { 
+    text-align: center;
+}
+
+figure {
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+figcaption {
+    font-style: italic;
+}

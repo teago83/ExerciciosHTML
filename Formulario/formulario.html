@@ -1,0 +1,66 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h1>Formulário de Cadastro</h1>
+        <form> <!--Troço dos formulários-->
+            <fieldset> 
+                <legend>Dados Pessoais</legend>
+                <label for="txtNome">Nome:</label> <!--Esse 'for' no label tem que ser o mesmo do ID do elemento. É uma boa prática.-->
+                <input type="text" id="txtNome" maxlength="30"> <!--Não dá pra ter o mesmo ID para múltiplos objetos. Tem um 'name', também, ele é usado para
+                                                                fazer grupos de elementos.-->
+                <label for="rdoSexo">Sexo:</label>
+
+                <input type="radio" name="sexo">
+                <label for="sexo">Feminino:</label>
+
+                <input type="radio" name="sexo">
+                <label for="sexo">Masculino:</label>
+                
+                <label>Estado Civil:</label>
+                <select>
+                    <option value="Solteiro">Solteiro</option>
+                    <option value="Casado">Casado</option>
+                </select>
+
+                <input type="checkbox" id="java">
+                <label for="ferramentas">Java</label>
+
+                <input type="checkbox" id="c++">
+                <label for="ferramentas">C++</label>
+
+                <input type="checkbox" id="c#">
+                <label for="ferramentas">C#</label>
+
+                <input type="checkbox" id="go">
+                <label for="ferramentas">Go</label>
+
+                <input type="checkbox" id="php">
+                <label for="ferramentas">PHP</label>
+                
+                <input type="checkbox" id="node.js">
+                <label for="ferramentas">Node.js</label>
+                
+                <label>Mini Currículo:</label>
+                <textarea></textarea>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Dados de Autenticação</legend>
+
+                <label>E-mail:</label>
+                <input type="text" id="txtEmail">
+
+                <label>Usuário:</label>
+                <input type="text" id="txtUser">
+
+                <label>Senha:</label>
+                <input type="password" id="txtSenha">
+
+            </fieldset>
+        <input type="button" value="Enviar">
+        </form>
+    </body>
+</html>

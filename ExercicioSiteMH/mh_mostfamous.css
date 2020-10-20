@@ -1,0 +1,64 @@
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-image: url("narga.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Extra class made to make the buttons get positioned in a better way */
+.buttons {
+    position: relative;
+    left: 15px;
+}
+
+.button { 
+    text-align: center;
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    background-color: rgba(15, 15, 15, .6);
+    font-size: 30;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    color: #DDCC99;
+    border-style: double;
+    border-color: #DDCC99;
+}
+
+.title {
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+
+.description {
+    background-color: rgba(0, 0, 0, .5);
+    height: 10%;
+    position: relative;
+    top: 10px;
+    left: 350px;
+    font-size: 28px;
+    font-weight: lighter;
+    border-style: double;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: .5%;
+    padding-right: .5%;
+    color: #DDCC99;
+    width: 50%;
+    border: 3px solid #DDCC99;
+    /* webkit thingy = used to get a stroke around the text */
+    -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: black;
+}
+
+.images {
+    text-align: center;
+    border-style: solid;
+    border: 3px solid black;
+}
